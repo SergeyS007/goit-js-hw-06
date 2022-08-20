@@ -8,7 +8,7 @@ textInput.addEventListener("blur", () => {
     : textInput.classList.add("invalid");
 });
 textInput.addEventListener("focus", () => {
-  textInput.value = "";
+  // textInput.value = "";
   textInput.classList.contains("valid")
     ? textInput.classList.remove("valid")
     : textInput.classList.remove("invalid");
